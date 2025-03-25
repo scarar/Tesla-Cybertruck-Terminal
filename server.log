@@ -1,0 +1,154 @@
+Serving Tesla Hacker Terminal at http://localhost:54336
+172.17.0.1 - - [25/Mar/2025 01:18:40] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:18:40] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:18:40] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:18:40] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:18:40] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:18:40] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:18:40] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:19:27] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:19:27] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:30:44] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:30:44] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:33:44] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:33:44] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:33:44] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:33:44] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:33:44] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:34:26] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:34:26] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:34:26] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:34:26] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:34:26] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:34:26] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:34:33] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:34:33] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:34:33] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:34:42] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:34:42] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:34:42] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:36:47] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:36:47] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:36:47] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:36:47] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:36:47] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:37:19] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:37:19] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:37:19] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:37:19] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:37:19] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:37:20] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:37:20] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:37:20] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:37:20] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:37:20] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:37:38] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:37:38] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:38:08] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:38:08] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:41:57] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:41:57] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:41:57] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:41:57] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:41:57] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:42:24] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:42:24] "GET /beep.mp3 HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:45:44] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:45:44] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:45:44] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:45:44] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:45:44] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:49:36] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:49:37] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:49:37] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:49:37] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:49:37] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 01:58:10] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:58:10] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:58:10] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 01:58:11] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 01:58:11] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:06:12] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:12] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:12] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:12] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:12] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:06:12] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:06:15] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:15] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:15] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:06:15] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:06:15] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:08:44] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:08:44] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:08:44] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:08:44] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:08:44] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:11:20] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:11:20] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:11:20] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:11:20] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:11:20] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:11:20] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:13:28] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:28] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:28] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:28] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:28] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:13:28] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:13:30] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:13:30] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:14:01] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:14:01] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:14:01] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:14:01] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:14:01] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:14:01] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:14:15] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:18:19] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:20:46] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:20:46] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:20:46] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:20:46] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:20:46] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:20:46] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:21:08] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:21:42] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:21:42] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:21:42] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:21:42] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:21:42] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:22:03] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:06] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:06] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:06] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:06] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:24:06] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:24:32] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:32] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:32] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:32] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:24:32] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:24:32] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:24:49] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:25:05] "GET /cybertruck.html HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:25:43] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:25:43] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:25:43] "GET /style.css HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:25:43] "GET /script.js HTTP/1.1" 200 -
+172.17.0.1 - - [25/Mar/2025 02:25:43] code 404, message File not found
+172.17.0.1 - - [25/Mar/2025 02:25:43] "GET /ws/ws HTTP/1.1" 404 -
+172.17.0.1 - - [25/Mar/2025 02:26:05] "GET /cybertruck.html HTTP/1.1" 200 -

@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.terminal {
+    padding: 20px;
+    height: calc(100vh - 40px);
+}
+
+.output {
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 10px;
+}
+
+.command-input {
+    background: transparent;
+    border: none;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    width: 80%;
+    outline: none;
+}
+
+.cybertruck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#cybertruck-visual {
+    width: 650px;
+    height: 210px;
+    position: absolute;
+    left: 50%;
+    bottom: calc(35% - 30px);
+    margin-left: -285px;
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(161deg, transparent 11%, #1d232a 11.5%), 
+        linear-gradient(161deg, transparent 50%, #555 50%), 
+        linear-gradient(to right, #1d232a, #1d232a),
+        radial-gradient(circle at center, yellow 8%, red 30%, transparent 80%),
+        linear-gradient(to right, transparent, rgba(255,0,0,.6) 30%, rgba(255,0,0,.6) 70%, transparent),
+        linear-gradient(to bottom, transparent, rgba(255,0,0,.6) 30%, rgba(255,0,0,.6) 70%, transparent),
+        radial-gradient(circle at center bottom, transparent 45%, rgba(255,255,255,0.1) 45%, rgba(255,255,255,0.1) 50%, transparent 50%),
+        linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+    background-size: 
+        20px 45px, 5px 5px, 26px 10px,
+        12px 12px, 55px 1px, 1px 55px,
+        130px 65px, 10px 7px;
+    background-position: 
+        5px 80px, 0 125px, 0 128px,
+        right 25px top 35px, right top 40px, right 30px top 15px,
+        25px 90px, 85px 123px;
+    animation: 
+    techFadeIn 1.5s ease-out,
+    scanlines 3s linear infinite,
+    electricPulse 4s linear infinite,
+    digitalDistortion 0.5s linear 3;
+filter: drop-shadow(0 0 10px #0ff);
+transform-style: preserve-3d;
+}
+
+#close-cybertruck {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#close-cybertruck:hover {
+    background: #ff4444;
+}
+
+/* Matrix Background Effect */
+.matrix-effect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 90;
+    overflow: hidden;
+}
+
+.matrix-effect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,255,0,0.1),
+        transparent
+    );
+    animation: matrixRain 5s linear infinite;
+}
+
+@keyframes matrixRain {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100vh; }
+}
+
+/* Hologram Effects */
+.hologram-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hologram-line {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #0ff, transparent);
+    margin: 20px 0;
+    animation: scanPulse 2s infinite;
+}
+
+.cybertruck-hologram {
+    width: 80%;
+    height: 60%;
+    background: 
+        radial-gradient(circle at center, rgba(0,255,255,0.2) 0%, transparent 70%),
+        url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/cybertruck-hero-desktop') center/contain no-repeat;
+    filter: hue-rotate(0deg);
+    animation: 
+        hologramFloat 6s ease-in-out infinite,
+        hologramColorShift 8s linear infinite;
+}
+
+@keyframes hologramFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes hologramColorShift {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+@keyframes scanPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+/* Boot Sequence Styling */
+.matrix-boot {
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+    text-shadow: 0 0 5px #0f0;
+    animation: textFlicker 0.5s infinite alternate;
+}
+
+@keyframes textFlicker {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+@keyframes techFadeIn {
+    0% { opacity: 0; filter: blur(10px) hue-rotate(90deg); }
+    50% { opacity: 0.8; filter: blur(5px) hue-rotate(45deg); }
+    100% { opacity: 1; filter: blur(0) hue-rotate(0); }
+}
+
+@keyframes scanlines {
+    0% { background-image: linear-gradient(to bottom, 
+        transparent 95%, rgba(0, 255, 255, 0.1) 95%); }
+    100% { background-image: linear-gradient(to bottom, 
+        transparent 95%, rgba(0, 255, 255, 0.1) 95%); }
+}
+
+@keyframes electricPulse {
+    0% { box-shadow: 0 0 5px #0ff; }
+    50% { box-shadow: 0 0 20px #0ff, 0 0 30px #0ff; }
+    100% { box-shadow: 0 0 5px #0ff; }
+}
+
+@keyframes digitalDistortion {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+}
+}
+
+.command-list {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border-left: 3px solid #0f0;
+}
+
+.command-list div {
+    margin: 5px 0;
+    padding: 3px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ===== BAD-ASS CYBERTRUCK REVEAL ===== */
+.terminal-header {
+    color: #0ff;
+    font-size: 1.5em;
+    text-shadow: 0 0 15px #0ff;
+    border-bottom: 2px solid #0ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    animation: pulse 2s infinite;
+}
+
+.hack-message {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+    margin: 10px 0;
+    animation: textGlitch 0.3s infinite;
+}
+
+.success-message {
+    color: #0ff;
+    font-size: 1.8em;
+    text-shadow: 0 0 20px #0ff;
+    margin: 20px 0;
+    animation: pulse 0.5s infinite, colorShift 5s infinite;
+}
+
+#cybertruck-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cybertruck-image {
+    width: 80%;
+    height: 60%;
+    background: 
+        url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/cybertruck-hero-desktop') center/contain no-repeat,
+        radial-gradient(circle at center, rgba(0,255,255,0.3) 0%, transparent 70%);
+    animation: 
+        hologramFloat 5s ease-in-out infinite,
+        hologramGlow 2s ease-in-out infinite alternate;
+}
+
+.energy-pulse {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,255,255,0.8) 0%, transparent 70%);
+    animation: pulseExpand 4s ease-out infinite;
+    z-index: -1;
+}
+
+#close-cybertruck {
+    background: linear-gradient(to right, #f00, #f80);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 30px;
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #f00;
+    transition: all 0.3s;
+    z-index: 1001;
+}
+
+#close-cybertruck:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #f80;
+}
+
+/* Animations */
+@keyframes pulse {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
+
+@keyframes textGlitch {
+    0%, 100% { text-shadow: 0 0 5px #0f0; }
+    50% { text-shadow: 0 0 10px #0f0, 0 0 5px #0f0; }
+}
+
+@keyframes hologramFloat {
+    0%, 100% { transform: translateY(0) rotate(0.5deg); }
+    50% { transform: translateY(-20px) rotate(-0.5deg); }
+}
+
+@keyframes hologramGlow {
+    0% { filter: drop-shadow(0 0 30px #0ff) hue-rotate(0deg); }
+    100% { filter: drop-shadow(0 0 50px #0ff) hue-rotate(20deg); }
+}
+
+@keyframes pulseExpand {
+    0% { transform: scale(0.5); opacity: 1; }
+    100% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes colorShift {
+    0% { color: #0ff; }
+    25% { color: #f0f; }
+    50% { color: #ff0; }
+    75% { color: #0f0; }
+    100% { color: #0ff; }
+}
