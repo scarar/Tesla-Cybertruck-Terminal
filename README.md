@@ -15,7 +15,7 @@ A hacker-style terminal that reveals the Tesla Cybertruck with sound effects and
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/Tesla-Cybertruck-Terminal.git
+git clone https://github.com/scarar/Tesla-Cybertruck-Terminal.git
 cd Tesla-Cybertruck-Terminal
 ```
 
@@ -40,4 +40,4 @@ Edit these files to customize:
 ## Deploy to GitHub Pages
 1. Enable GitHub Pages in repo settings (branch: main, folder: /root)
 2. Your site will be at:  
-`https://[YOUR_USERNAME].github.io/Tesla-Cybertruck-Terminal`
+`https://github.com/scarar/Tesla-Cybertruck-Terminal.git`
