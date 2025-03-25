@@ -40,4 +40,4 @@ Edit these files to customize:
 ## Deploy to GitHub Pages
 1. Enable GitHub Pages in repo settings (branch: main, folder: /root)
 2. Your site will be at:  
-`https://github.com/scarar/Tesla-Cybertruck-Terminal.git`
+   'https://scarar.github.io/Tesla-Cybertruck-Terminal`
