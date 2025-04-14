@@ -1,4 +1,4 @@
-/* Matrix Background Effect - MODIFIED for better visibility */
+/* Matrix Background Effect - MODIFIED for darker, more visible effect */
 .matrix-effect {
     position: fixed;
     top: 0;
@@ -19,13 +19,13 @@
     height: 100%;
     background: linear-gradient(
         to bottom,
-        rgba(0,255,0,0.4),  /* Increased opacity from 0.1 to 0.4 */
+        rgba(0,153,0,0.7),  /* Darker green with higher opacity */
         transparent
     );
     animation: matrixRain 5s linear infinite;
 }
 
-/* You could also add this code for more visible falling characters */
+/* Enhanced falling characters with darker, more visible green */
 .matrix-effect::after {
     content: "01010101010101010101";
     position: absolute;
@@ -35,11 +35,11 @@
     height: 200%;
     font-family: 'Courier New', monospace;
     font-size: 24px;
-    color: #0f0;  /* Bright green */
-    text-shadow: 0 0 5px #0f0;  /* Add glow */
+    color: #00cc00;  /* Darker, more saturated green */
+    text-shadow: 0 0 8px #006600;  /* Darker green glow */
     text-align: center;
     letter-spacing: 5px;
-    opacity: 0.8;  /* Make it quite visible */
+    opacity: 0.9;  /* Higher opacity for visibility */
     animation: matrixFall 10s linear infinite;
 }
 
@@ -51,4 +51,39 @@
 @keyframes matrixRain {
     0% { background-position: 0 0; }
     100% { background-position: 0 100vh; }
+}
+
+/* You might also want to adjust other green elements for consistency */
+.terminal {
+    color: #00cc00; /* Darker green for terminal text */
+}
+
+.command-input {
+    color: #00cc00; /* Darker green for input text */
+}
+
+/* Add this if you want the characters to appear in columns like the real Matrix */
+.matrix-columns {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 91;
+}
+
+.matrix-column {
+    position: absolute;
+    top: -100%;
+    width: 30px;
+    color: #00cc00;
+    font-size: 20px;
+    text-align: center;
+    animation: matrixColumnFall 8s linear infinite;
+}
+
+@keyframes matrixColumnFall {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
 }
